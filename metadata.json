@@ -1,0 +1,6 @@
+{
+  "name": "AIShield",
+  "description": "AI Application Security Firewall & Threat Detection Platform with real-time risk scoring, RAG scanner, and policy engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

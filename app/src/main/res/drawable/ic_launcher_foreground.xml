@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Shield Glow -->
+    <path
+        android:pathData="M54,22L78,31V53C78,69 67.8,81.4 54,86C40.2,81.4 30,69 30,53V31L54,22Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00E5FF">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="22"
+                android:endX="78"
+                android:endY="86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2600E5FF" />
+                <item android:offset="1.0" android:color="#1A0052D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner AI Core / Circuit Node -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,42L62,50L54,58L46,50Z" />
+    <!-- Pulse Ring -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2"
+        android:pathData="M54,34V42 M54,58V66 M38,50H46 M62,50H70" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,33A2,2 0 1,1 54,37A2,2 0 1,1 54,33 M54,63A2,2 0 1,1 54,67A2,2 0 1,1 54,63 M36,50A2,2 0 1,1 40,50A2,2 0 1,1 36,50 M68,50A2,2 0 1,1 72,50A2,2 0 1,1 68,50" />
+</vector>
